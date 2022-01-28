@@ -1,0 +1,170 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8F8F8F;
+  /* padding: 5px 50px 100px 50px; */
+}
+
+/* Headings */
+.main-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #FF4C68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  /* text-shadow: -1px -1px grey; */
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight:400;
+}
+
+/* Title section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.phone-img {
+  transform: rotate(25deg);
+  position: absolute;
+  right: 24%;
+  width: 21%;
+}
+
+/* Features section */
+#features {
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-head {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+.feature-icon {
+  color: #EF8172;
+}
+
+.feature-icon:hover {
+  color: #FF4C68;
+}
+
+/* Testimonials section */
+#testimonials {
+  background-color: #EF8172;
+}
+
+.testimonial-desc {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press section */
+#press {
+  background-color: #EF8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 7% 15%;
+}
+
+.pricing-box {
+  padding: 3% 2%;
+}
+
+.plan-text {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+.pricing-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* CTA section */
+
+
+/* Footer section */
+.social-icon {
+  margin: 0% 0.7% 1%;
+}
+
+/* Media query section */
+@media (max-width: 991.2px) {
+  #title {
+    text-align: center;
+  }
+
+  .phone-img {
+    transform: rotate(0deg);
+    position: static;
+    padding: 5% 0%;
+    width: 50%;
+  }
+}
